@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@100&display=swap");
-
+body {
+  position: relative;
+  padding-bottom: 6em;
+  min-height: 100vh;
+}
 /* header para todas las paginas */
 header {
   background-color: #333; /* color de gris oscuro */
@@ -407,9 +411,9 @@ input {
 footer {
   background-color: #333;
   color: #fff;
-  position: relative;
-  bottom: 0;
-  width: 99%;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -419,7 +423,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 1.2em;
 }
 
 .left-content {
