@@ -66,57 +66,68 @@
       <!-- empieza formulario contacto -->
 
       <section>
-        <div class="contenedor-contacto">
-          <form class="formulario-contacto" action="example.com" method="post">
-            <label for="name" class="contacto-label">Nombre:</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              class="text-email-tel"
-            />
-
-            <label for="email" class="contacto-label"
-              >Correo electrónico:</label
-            >
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              class="text-email-tel"
-            />
-
-            <label for="phone" class="contacto-label"
-              >Número de teléfono:</label
-            >
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              required
-              class="text-email-tel"
-            />
-
-            <label for="subject" class="contacto-label">Asunto:</label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              required
-              class="text-email-tel"
-            />
-
-            <label for="message" class="contacto-label">Mensaje:</label>
-            <textarea
-              id="message"
-              name="message"
-              required
-              class="text-email-tel"
-            ></textarea>
-
-            <input class="buttons" type="submit" value="Enviar" />
+        <div class="container">
+          <h2>Formulario de contacto</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name" class="LabelContacto">Nombre:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Ingresa tu nombre"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="LabelContacto"
+                >Correo electrónico:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Ingresa tu correo electrónico"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone" class="LabelContacto"
+                >Número de teléfono:</label
+              >
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                placeholder="Ingresa tu número de teléfono"
+                name="phone"
+              />
+            </div>
+            <div class="form-group">
+              <label for="subject" class="LabelContacto">Asunto:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="Ingresa el asunto del mensaje"
+                name="subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" class="LabelContacto">Mensaje:</label>
+              <textarea
+                class="form-control"
+                rows="5"
+                id="message"
+                placeholder="Escribe tu mensaje aquí"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="botonContacto">Enviar</button>
           </form>
         </div>
       </section>
@@ -172,5 +183,8 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

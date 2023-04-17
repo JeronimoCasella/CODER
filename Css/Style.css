@@ -273,93 +273,23 @@ figcaption a {
 
 /* formulario principal */
 
-.contenedor-contacto {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
-
-.formulario-contacto {
-  max-width: 500px;
-  padding: 25px 30px 25px 25px;
-  border: 20px solid #333;
-  background-color: #a52929;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Serif", serif;
-}
-
-.contacto-label {
-  display: block;
-  margin-bottom: 1em;
-  font-weight: bold;
-}
-
-.text-email-tel {
-  width: 100%;
-  padding: 0.5em;
-  margin-bottom: 1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.buttons {
-  background-color: #333;
-  color: #fff;
-  padding: 0.5em;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"].buttons:hover {
-  background-color: #330105;
-}
-/* termina formulario contacto */
-/* empieza registro */
-
-.container {
-  margin-top: 50px;
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px #a52929;
-}
-
-.FormRegistro {
-  margin-bottom: 20px;
-}
-
-.LabelRegistro {
+.LabelContacto {
   color: #a52929;
-  font-weight: bold;
   margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.botonContacto {
+  background-color: #a52929;
+  border-color: #a52929;
   margin-top: 10px;
 }
 
-input {
-  border-color: #a52929;
+.botonContacto:hover {
+  background-color: #7a1c1c;
+  border-color: #7a1c1c;
 }
-
-.BotonIniRegistro {
-  background-color: #a52929;
-  border-color: #a52929;
-  margin-top: 20px;
-}
-
-.BotonIniRegistro:hover {
-  background-color: #333;
-  color: #a52929;
-}
-
-.BotonRegistro {
-  background-color: #a52929;
-  border-color: #a52929;
-}
-
-.BotonRegistro:hover {
-  background-color: #333;
-  color: #a52929;
-}
+/* termina formulario contacto */
 
 /* empieza formulario newsletter */
 .newsletter {
@@ -370,7 +300,7 @@ input {
   align-items: center;
   height: 150px;
   width: 99%;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .contenido {
@@ -422,6 +352,53 @@ input {
 }
 
 /* termina formularrio newsletter */
+
+/* empieza registro */
+
+.container {
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #a52929;
+  background-color: rgb(108, 108, 108);
+}
+
+.FormRegistro {
+  margin-bottom: 20px;
+}
+
+.LabelRegistro {
+  color: #a52929;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+input {
+  border-color: #a52929;
+}
+
+.BotonIniRegistro {
+  background-color: #a52929;
+  border-color: #a52929;
+  margin-top: 20px;
+}
+
+.BotonIniRegistro:hover {
+  background-color: #333;
+  color: #a52929;
+}
+
+.BotonRegistro {
+  background-color: #a52929;
+  border-color: #a52929;
+}
+
+.BotonRegistro:hover {
+  background-color: #333;
+  color: #a52929;
+}
 
 /* comienza pagina de registro */
 
