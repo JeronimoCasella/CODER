@@ -281,6 +281,7 @@ figcaption a {
   color: #a52929;
   margin-bottom: 5px;
   margin-top: 5px;
+  font-weight: bold;
 }
 
 .botonContacto {
