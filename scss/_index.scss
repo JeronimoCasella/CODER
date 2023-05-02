@@ -97,12 +97,12 @@
 }
 
 .gridindex {
-  background-color: #333;
+  background-color: $maincolor;
   color: #7a2020;
   padding: 10px;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0px 0px 10px #a52929;
+  box-shadow: 0px 0px 10px $secondarycolor;
   background-color: rgb(108, 108, 108);
 }
 
@@ -114,7 +114,7 @@
   width: 320px;
   height: 260px; /* altura fija */
   position: relative;
-  border: 5px solid #a52929;
+  border: 5px solid $secondarycolor;
   box-sizing: border-box;
   align-items: center;
 
@@ -150,4 +150,9 @@
   color: white;
   padding: 10px;
   box-sizing: border-box;
+}
+
+#link_lexus {
+  text-decoration: none;
+  color: #7a2020;
 }
