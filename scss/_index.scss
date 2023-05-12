@@ -35,6 +35,12 @@
     grid-row: 3;
     margin-top: 5px;
   }
+  @include grande {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 5px;
+    font-size: 12px;
+  }
 }
 // lexus
 .box2 {
@@ -79,7 +85,11 @@
     grid-row: 4;
   }
 
-  @include mediano {
+  @include indexmicroscopico {
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 4;
   }
 }
 
@@ -127,6 +137,11 @@
     width: 240px;
     height: 200px;
   }
+
+  @include indexmicroscopico {
+    width: 180px;
+    height: 180px;
+  }
 }
 
 .contenedor-imagen img {
@@ -155,4 +170,10 @@
 #link_lexus {
   text-decoration: none;
   color: #7a2020;
+
+  @include mediano {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 9px;
+  }
 }
