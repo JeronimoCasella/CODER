@@ -21,7 +21,6 @@ a:active {
   text-decoration: none;
 }
 
-/* Backward */
 .hvr-backward {
   display: inline-block;
   vertical-align: middle;
@@ -53,12 +52,12 @@ a:active {
 }
 
 header {
-  background-color: #333; /* color de gris oscuro */
-  color: white; /* color de texto blanco */
+  background-color: #333;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 17px; /* margen interno */
+  padding: 0 17px;
   margin-bottom: 1em;
 }
 header img {
@@ -272,7 +271,7 @@ footer .footer-container .social-icons a:first-child img {
   margin-top: 1em;
   padding: 1.27em;
   width: 320px;
-  height: 260px; /* altura fija */
+  height: 260px;
   position: relative;
   border: 5px solid #a52929;
   box-sizing: border-box;
@@ -332,7 +331,6 @@ footer .footer-container .social-icons a:first-child img {
   }
 }
 
-/* Backward */
 .hvr-backward {
   display: inline-block;
   vertical-align: middle;
